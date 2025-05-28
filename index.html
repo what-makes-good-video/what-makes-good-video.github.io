@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPVGE Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">NPVGE Workshop</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#submission">Submission</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>What Makes a Good Video: <br> Next Practices in Video Generation and Evaluation</h1>
+                <h2>NeurIPS 2025 Workshop</h2>
+                <p class="hero-subtitle">Exploring the challenges and opportunities in video generation and evaluation</p>
+                <div class="cta-buttons">
+                    <a href="#submission" class="cta-primary">Submit Paper</a>
+                    <a href="#about" class="cta-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About the Workshop</h2>
+                <p>This workshop aims to explore how real-world advances in video generation increasingly rely on forward-looking evaluation frameworks and to collaboratively shape the next generation of high-quality video synthesis. Through a combination of invited talks, academic presentations, and expert discussions featuring leading voices from both academia and industry, the workshop bridges academic foundations and industrial insights across the modeling, evaluation, and deployment of video generation.</p>
+                
+                <!-- <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>Full-day</h3>
+                        <p>Duration</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>7</h3>
+                        <p>Invited Speakers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>300+</h3>
+                        <p>Expected Attendees</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50</h3>
+                        <p>Poster Presentations</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="topics" class="section bg-light">
+            <div class="container">
+                <h2>Topics of Interest</h2>
+                <div class="topics-grid">
+                    <div class="topic-card">
+                        <h3>Video Generation & Control</h3>
+                        <p>Controllable video generation from prompts, layouts, motion trajectories, or camera behaviors. Incorporation of 3D, 4D, and physics-informed priors into generative video models. Modeling and evaluating narrative and expressive semantics in story-driven video generation.</p>
+                    </div>
+                    <div class="topic-card">
+                        <h3>Evaluation & Metrics</h3>
+                        <p>Evaluation of temporal, semantic, and causal coherence in generated video content. Development of human-aligned metrics for spatiotemporal consistency and narrative fidelity. Leveraging video large language models for interpretable and automated evaluation.</p>
+                    </div>
+                    <div class="topic-card">
+                        <h3>Benchmarks & Applications</h3>
+                        <p>Constructing datasets and benchmarks for long-form, multi-shot, and task-oriented video assessment. Feedback-driven and closed-loop video generation-evaluation frameworks. Real-world deployment in media production, education, virtual simulation, AR/VR, and robotics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="organizers" class="section">
+            <div class="container">
+                <h2>Organizers</h2>
+                <div class="organizers-grid">
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/xinting.png" alt="Xinting Hu" class="profile-img">
+                        </div>
+                        <h3>Xinting Hu</h3>
+                        <p class="affiliation">Max Planck Institute for Informatics</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/yongliang.jpg" alt="Yongliang Wu" class="profile-img">
+                        </div>
+                        <h3>Yongliang Wu</h3>
+                        <p class="affiliation">Southeast University</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/anna.jpg" alt="Anna Kukleva" class="profile-img">
+                        </div>
+                        <h3>Anna Kukleva</h3>
+                        <p class="affiliation">Max Planck Institute for Informatics</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/zhicai.jpg" alt="Zhicai Wang" class="profile-img">
+                        </div>
+                        <h3>Zhicai Wang</h3>
+                        <p class="affiliation">University of Science and Technology of China</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/chenyang.jpg" alt="Chenyang Si" class="profile-img">
+                        </div>
+                        <h3>Chenyang Si</h3>
+                        <p class="affiliation">Nanjing University</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/lijiang.jpg" alt="Xu Yang" class="profile-img">
+                        </div>
+                        <h3>Li Jiang</h3>
+                        <p class="affiliation">Chinese University of Hong Kong, Shenzhen</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/yugang.jpg" alt="Gang Yu" class="profile-img">
+                        </div>
+                        <h3>Gang Yu</h3>
+                        <p class="affiliation">StepFun</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/xuyang.png" alt="Xu Yang" class="profile-img">
+                        </div>
+                        <h3>Xu Yang</h3>
+                        <p class="affiliation">Southeast University</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/ziwei.jpeg" alt="Ziwei Liu" class="profile-img">
+                        </div>
+                        <h3>Ziwei Liu</h3>
+                        <p class="affiliation">Nanyang Technological University</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="profile-image">
+                            <img src="assets/bernt.jpeg" alt="Bernt Schiele" class="profile-img">
+                        </div>
+                        <h3>Bernt Schiele</h3>
+                        <p class="affiliation">Max Planck Institute for Informatics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="speakers" class="section bg-light">
+            <div class="container">
+                <h2>Invited Speakers</h2>
+                <div class="speakers-grid">
+                    <div class="speaker-card">
+                        <h3>TBD</h3>
+                        <p class="affiliation"></p>
+                        <p class="title"></p>
+                    </div>
+                    <!-- <div class="speaker-card">
+                        <h3>A</h3>
+                        <p class="affiliation">X</p>
+                        <p class="title">Y</p>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="section">
+            <div class="container">
+                <h2>Workshop Schedule</h2>
+                <div class="schedule-timeline">
+                    <div class="timeline-item">
+                        <div class="time">One-Day</div>
+                        <div class="event">Schedule TBD</div>
+                    </div>
+                    <!-- <div class="timeline-item">
+                        <div class="time">40 mins</div>
+                        <div class="event">Invited Speaker 1</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">40 mins</div>
+                        <div class="event">Invited Speaker 2</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">40 mins</div>
+                        <div class="event">Paper Presentations</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">30 mins</div>
+                        <div class="event">Poster Session</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">40 mins</div>
+                        <div class="event">Invited Speaker 3</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">30 mins</div>
+                        <div class="event">Panel Discussion</div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="submission" class="section bg-light">
+            <div class="container">
+                <h2>Paper Submission</h2>
+                <div class="submission-info">
+                    <div class="submission-details">
+                        <h3>Important Dates</h3>
+                        <ul class="dates-list">
+                            <li><strong>Submissions Open:</strong> TBD</li>
+                            <li><strong>Submission Deadline:</strong> TBD</li>
+                            <li><strong>Notification to Authors:</strong> TBD</li>
+                            <li><strong>Camera-ready Deadline:</strong> TBD</li>
+                        </ul>
+                    </div>
+                    <div class="submission-guidelines">
+                        <h3>Submission Guidelines</h3>
+                        <p>Submissions are invited, adhering to the main track NeurIPS format, with a page limit of 4 to 9 pages. <br> We offer three tracks: (1) non-archival submissions, (2) archival proceedings, and (3) accepted NeurIPS 2025 papers relevant to the workshop themes. <br> All submissions will be managed through OpenReview.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: xhu@mpi-inf.mpg.de; yongliang0223@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NPVG Workshop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
