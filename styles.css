@@ -33,6 +33,7 @@ body {
     padding: 0 2rem;
 }
 
+
 /* Header Styles */
 .header {
     background-color: var(--white);
@@ -127,7 +128,7 @@ body {
     justify-content: center;
 }
 
-.cta-primary, .cta-secondary {
+.cta-primary, .cta-secondary, .cta-third {
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
     font-weight: 500;
@@ -156,6 +157,7 @@ body {
     color: var(--primary-color);
     transform: translateY(-2px);
 }
+
 
 /* Section Styles */
 .section {
@@ -264,6 +266,12 @@ body {
     color: var(--gray-600);
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
+}
+
+.affiliation-speaker {
+    color: var(--gray-600);
+    margin-bottom: 0.5rem;
+    font-size: 1.0rem;
 }
 
 .role {
