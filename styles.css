@@ -509,6 +509,37 @@ body {
     color: var(--primary-color);
 }
 
+/* Sponsors Section */
+.sponsors-section {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gray-700);
+}
+
+.sponsors-section h3 {
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.sponsors-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-img {
+    max-width: 300px;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.sponsors-img:hover {
+    opacity: 1;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
