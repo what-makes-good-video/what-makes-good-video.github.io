@@ -854,3 +854,37 @@ a:hover {
 .important-dates-table tr:last-child td {
     border-bottom: 1px solid #e0e0e0;
 }
+
+/* Paper List Styles */
+.paper-list {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.paper-list li {
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.paper-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.paper-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: block;
+}
+
+.paper-list a:hover {
+    color: var(--primary-color);
+}
