@@ -888,3 +888,83 @@ a:hover {
 .paper-list a:hover {
     color: var(--primary-color);
 }
+.page-header-simple {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 2rem 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.page-header-simple h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.page-header-simple p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+.back-home {
+    display: inline-block;
+    margin: 1rem 0;
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.back-home:hover {
+    opacity: 1;
+}
+
+.section-icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+.committee-list {
+    list-style: none;
+    padding: 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.committee-list li {
+    padding: 1rem 1.5rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.committee-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.committee-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: block;
+    font-weight: 500;
+}
+
+.committee-list a:hover {
+    color: var(--primary-color);
+}
+
+.committee-list .no-link {
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
