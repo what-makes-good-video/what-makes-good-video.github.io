@@ -277,7 +277,7 @@ body {
 .affiliation-speaker {
     color: var(--gray-600);
     margin-bottom: 0.5rem;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
 }
 
 .role {
@@ -303,6 +303,11 @@ body {
 .speaker-card h3 {
     color: var(--primary-color);
     margin-bottom: 0.5rem;
+}
+
+.speaker-card .title {
+    color: var(--gray-600);
+    font-size: 0.9rem;
 }
 
 /* Schedule Timeline */
